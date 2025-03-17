@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schere, Stein, Papier</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="game-container">
+        <label class="choice">
+            <h1>Schere, Stein, Papier</h1>
+        </label>
+        
+        <p id="game-text">Drücke auf eine Option, um zu starten!</p>
+
+        <h2>Du</h2>
+        <h2 id="vs">VS</h2>
+        <h2>Computer</h2>
+
+<label class="option">
+    <p id="player-choice">👤 Deine Wahl</p>
+    <hr>
+    <p id="computer-choice">💻 Computer Wahl</p>
+
+</label>
+
+
+
+<div>
+    <button onclick="playGame(1)">
+        <img src="./RockPaperScissors - Kopie/RockPaperScissors - Kopie/Alex_Kidd_Scissor.png" alt="Schere" width="100">
+    </button>
+    <button onclick="playGame(2)">
+        <img src="./RockPaperScissors - Kopie/RockPaperScissors - Kopie/Alex_Kidd_Rock.png" alt="Stein" width="100">
+    </button>
+    <button onclick="playGame(3)">
+        <img src="./RockPaperScissors - Kopie/RockPaperScissors - Kopie/Alex_Kidd_Paper.png" alt="Papier" width="100">
+    </button>
+</div>
+
+<!-- Ergebnisanzeige -->
+<p id="result">Drücke auf eine Option, um zu starten!</p>
+
+<!-- Neustart-Button -->
+<button onclick="resetGame()">Neu starten</button>
+
+
+    
+    
+</body>
+</html>
